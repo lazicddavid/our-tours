@@ -2,6 +2,13 @@ body {
   box-sizing: border-box;
 }
 
+.main-title {
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+
 .tours-cards {
   display: grid;
   grid-template-columns: ;
