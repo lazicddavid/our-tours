@@ -1,15 +1,17 @@
 body {
   box-sizing: border-box;
+  font-family: Arial, sans-serif;
 }
 
 .main-title {
   text-align: center;
-  font-size: 3rem;
+  font-size: xx-large;
   margin-top: 2rem;
   margin-bottom: 4rem;
+  font-weight: 500;
 }
 
 .tours-cards {
   display: grid;
-  grid-template-columns: ;
+  grid-template-columns: 2fr 2fr 2fr;
 }
