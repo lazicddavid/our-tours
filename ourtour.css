@@ -13,5 +13,6 @@ body {
 
 .tours-cards {
   display: grid;
-  grid-template-columns: 2fr 2fr 2fr;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
 }
