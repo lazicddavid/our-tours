@@ -13,19 +13,20 @@ h1 {
 }
 
 #tourForm {
-  padding: 20px 40px;
+  padding: 20px auto;
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 50px;
 }
 
 #tourDesc {
   width: 300px;
-  height: 110px;
+  height: 145px;
   border-radius: 10px;
   border: none;
   background-color: beige;
   resize: none;
+  outline: none;
 }
 
 .left-fields {
@@ -37,12 +38,37 @@ h1 {
 
 #tourTitle {
   margin: 5px 0;
+  border-radius: 6px;
+  height: 30px;
 }
 
 #tourSubtitle {
   margin: 5px 0;
+  border-radius: 6px;
+  height: 30px;
 }
 
 #tourImage {
+  background-color: rgba(245, 245, 220, 0.715);
   margin: 5px 0;
+  height: 30px;
+  border-radius: 6px;
+}
+
+#tourForm input {
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+#tourForm input:focus,
+#tourDesc:focus {
+  border-color: #4a6cf0;
+}
+
+.center-line {
+  width: 70%;
+  margin: 50px auto;
+  border: none;
+  border-top: 1px solid #ccc;
 }
