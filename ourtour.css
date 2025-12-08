@@ -1,0 +1,19 @@
+body {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.main-title {
+  font-size: medium;
+
+  justify-self: center;
+}
+
+h1 {
+  font-weight: 300;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
