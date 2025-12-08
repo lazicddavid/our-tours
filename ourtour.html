@@ -15,20 +15,21 @@
       <div class="left-fields">
         <input type="text" id="tourTitle" placeholder="Tour title..." />
         <input type="text" id="tourSubtitle" placeholder="Enter your tour!" />
-        <input type="text" id="tourImage" placeholder="Add Image..." />
+        <input
+          type="file"
+          id="tourImage"
+          accept="image/*"
+          placeholder="Add Image..."
+        />
       </div>
 
       <textarea id="tourDesc" placeholder="Tour Description..."></textarea>
+      <button type="submit" class="add-btn">Add Tour</button>
     </form>
-    <hr class="center-line" />
-    <div class="tour-card">
-      <img src="image-url" class="tour-img" />
 
-      <div class="tour-info">
-        <h3>Tour Title</h3>
-        <p>Description</p>
-        <button class="not-btn">Not Interested</button>
-      </div>
-    </div>
+    <hr class="center-line" />
+    <div class="tours-cards" id="toursContainer"></div>
+
+    <script src="ourtour.js"></script>
   </body>
 </html>

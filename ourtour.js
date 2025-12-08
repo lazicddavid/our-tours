@@ -52,6 +52,8 @@ const tourManager = {
 DOM.form.addEventListener("submit", function (e) {
   e.preventDefault();
 
+  const imageFile = DOM.tourImage.files[0];
+  const imageURL = URL.createObjectURL(imageFile);
   const tour = tourManager.createTour(
     DOM.tourTitle.value,
     DOM.tourSubtitle.value,
