@@ -27,7 +27,7 @@ h1 {
   resize: none;
 }
 
-.left-side {
+.left-fields {
   display: flex;
   flex-direction: column;
   gap: 10px;
