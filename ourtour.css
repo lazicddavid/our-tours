@@ -5,7 +5,6 @@ body {
 
 .main-title {
   font-size: medium;
-
   justify-self: center;
 }
 
@@ -13,7 +12,17 @@ h1 {
   font-weight: 300;
 }
 
-.container {
+#tourForm {
   display: flex;
-  justify-content: center;
+  background-color: black;
+  gap: 20px;
+}
+
+#tourDesc {
+  width: 300px;
+  height: 100px;
+  border-radius: 10px;
+  border: none;
+  background-color: beige;
+  resize: none;
 }
