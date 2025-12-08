@@ -26,3 +26,10 @@ h1 {
   background-color: beige;
   resize: none;
 }
+
+.left-side {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 40%;
+}
