@@ -57,11 +57,6 @@ const tourManager() = {
       DOM.toursContainer.appendChild(card);
     });
   },
-
-  removeTour(id) {
-    this.tours = this.tours.filter((tourItem) => tourItem.getId() !== id);
-    this.updateTours();
-  },
 };
 
 DOM.form.addEventListener("submit", function (e) {
