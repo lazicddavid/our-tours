@@ -33,8 +33,9 @@ const tourManager = {
     this.tours.push(tour);
   },
 
-  addTour(tour) {
-    this.tours.push(tour);
+  removeTour(id) {
+    this.tours = this.tours.filter((tourItem) => tourItem.getId() !== id);
+    this.updateTours();
   },
 
   updateTours() {
