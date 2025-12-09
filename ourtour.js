@@ -26,7 +26,7 @@ const createTour = (title, image, desc) => ({
   },
 });
 
-const tourManager = {
+const tourManager() = {
   tours: [],
 
   addTour(tour) {
