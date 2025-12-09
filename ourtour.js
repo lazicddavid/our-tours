@@ -9,6 +9,7 @@ const DOM = {
 const tourManager = {
   tours: [],
 
+  //izmestiti createTour van tourManager, u slucaju da se na taj deo dodaje jos opcija. Predlog.
   createTour(title, image, desc) {
     return {
       id: crypto.randomUUID(),
