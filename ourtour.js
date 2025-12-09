@@ -6,26 +6,33 @@ const DOM = {
   tourImage: document.getElementById("tourImage"),
 };
 
-
-  //izmestiti createTour van tourManager, u slucaju da se na taj deo dodaje jos opcija. Predlog.
-  createTour(title, image, desc) ({
-    
-      id: crypto.randomUUID(),
-      title,
-      image,
-      desc,
-getId() {return this.id;},
-getTitle() {return this.title},
-getImage() {return this.image},
-getDesc() {return this.desc},
-  )},
+//izmestiti createTour van tourManager, u slucaju da se na taj deo dodaje jos opcija. Predlog.
+const createTour = (title, image, desc) => ({
+  id: crypto.randomUUID(),
+  title,
+  image,
+  desc,
+  getId() {
+    return this.id;
+  },
+  getTitle() {
+    return this.title;
+  },
+  getImage() {
+    return this.image;
+  },
+  getDesc() {
+    return this.desc;
+  },
+});
 
 const tourManager = {
   tours: [],
 
+  addTour(tour) {
+    this.tours.push(tour);
+  },
 
-
-  
   addTour(tour) {
     this.tours.push(tour);
   },
