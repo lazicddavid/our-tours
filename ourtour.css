@@ -137,5 +137,9 @@ body {
 
 /*Life is a moment in space
 when the dreams is gone, it's lonelier place...*/
-display: block;
-margin: 20px auto;
+
+.tour-info p {
+  font-size: 1rem;
+  line-height: 1.55;
+  margin-bottom: 20px;
+}
