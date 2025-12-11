@@ -103,6 +103,11 @@ body {
   padding: 28px 25px;
 }
 
+.tour-info {
+  padding: 28px 25px;
+}
+
+
 .tour-info h3 {
   font-size: 1.2rem;
   margin-bottom: 15px;
